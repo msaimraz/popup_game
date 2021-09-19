@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* root */
+:root{
+    --full:100%;
+    --half:50%;
+}
+body{
+    background: url(../img/bg.jpg) no-repeat center ;
+    height: 100vh;
+    width: var(--full);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center h1{
+    font-size: 3.5rem;
+    color: aqua;
+
+}
+
+.center p{
+    font-size: medium;
+    color: #fff;
+}
+
+/* Footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.divff {
+    background-color: #000;
+    text-align: center;
+    padding: 1%;
+}
+
+.divff p {
+    color: #fff;
+}
+
+.divff a {
+    border: none;
+    color: #fff;
+}

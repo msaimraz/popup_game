@@ -1,0 +1,87 @@
+
+
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px;
+}
+
+#user{
+    font-weight: bold;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+#balloon-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+  
+}
+
+#balloon-gallery div{
+    background-color: gray;
+    height: 121px;
+    width: 119px;
+    border-radius: 50%;
+    margin: 3vh 0;
+    
+}
+
+#balloon-gallery div:nth-child(3n){
+    background: #25D324;
+    color: #ffce00;
+}
+
+#balloon-gallery div:nth-child(3n-1){
+    background:#F03921;
+    color:#3f7abe;
+}
+
+#balloon-gallery div:nth-child(5n){
+    background:#14ADFA;
+    color:#8e7a8e;
+}
+
+#balloon-gallery div:nth-child(13){
+    background:#14ADFA;
+    color:#8e7a8e;
+}
+
+#balloon-gallery div:nth-child(10n){
+    background:#ff3300;
+    color: #ff3300;
+}
+
+
+
+#wellplayed{
+    display:none;
+    color:#ff3300;
+    text-align: center;
+    font-size:100px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}

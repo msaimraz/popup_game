@@ -1,0 +1,107 @@
+
+
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px;
+}
+
+#user{
+    font-weight: bold;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+#balloon-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+  
+}
+
+#balloon-gallery div{
+    background-color: gray;
+
+    height: 121px;
+    width: 119px;
+    border-radius: 50%;
+    margin: 3vh 0;
+    
+}
+
+#balloon-gallery div:nth-child(3n){
+    background-color: #25D324;
+}
+
+#balloon-gallery div:nth-child(3n-1){
+    background-color:#a748a7;
+    animation-name: example4;
+    animation-duration: 4s;
+}
+@keyframes example4 {
+    from {background-color: #a748a7;}
+    to {background-color:#25D324 ;}
+}
+
+#balloon-gallery div:nth-child(5n){
+    background-color:#14ADFA;
+    animation-name: example3;
+    animation-duration: 4s;
+}
+@keyframes example3 {
+    from {background-color: #14ADFA;}
+    to {background-color:#ff3300 ;}
+}
+#balloon-gallery div:nth-child(13){
+    background-color:#14ADFA;
+    animation-name: example2;
+  animation-duration: 4s;
+}
+@keyframes example2 {
+    from {background-color: #14ADFA;}
+    to {background-color:#25D324 ;}
+}
+#balloon-gallery div:nth-child(10n){
+    background-color:#ff3300;
+  animation-name: example1;
+  animation-duration: 10s;
+}
+
+@keyframes example1 {
+    from {background-color: #ff3300;}
+    to {background-color:#14ADFA ;}
+}
+
+
+
+
+#wellplayed{
+    display:none;
+    color:#ff3300;
+    text-align: center;
+    font-size:100px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
